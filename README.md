@@ -10,4 +10,4 @@
 
 
 
-![Structure Comparison](figure/structure_comparison.jpg)
+![Structure Comparison](figure/structure_comparison.png)
