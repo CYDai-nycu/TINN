@@ -1,4 +1,4 @@
-### It is the official implementation of TINNs
+### 📌 It is the official implementation of TINNs
 
 ### 📄 Paper
 - [TINNs in arXiv](https://arxiv.org/abs/2601.20361)
@@ -11,3 +11,19 @@
 
 
 ![Structure Comparison](figure/structure_comparison.png)
+
+
+### 🚀 Code
+
+This repository implements TINNs for solving time-dependent PDEs using JAX.
+#### Features
+- Solves 1D/2D PDEs using TINNs
+- Supports Burgers / Allen-Cahn / Klein-Gordon / Korteweg-De Vries / Wave equations
+- Implemented in JAX with automatic differentiation
+- Optimizer: LM
+
+#### Requirements
+- 🧩 List for [Required Packages](requirement.txt)
+
+In each PDEs, there is a .py file to train the model, and the .mat file is the reference (exact) solution if needed.
+
